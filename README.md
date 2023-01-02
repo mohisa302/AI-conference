@@ -5,8 +5,6 @@
   <img src="https://github.com/mohisa302/ReadMe/blob/master/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
-
 </div>
 
 # 📗 Table of Contents
@@ -23,8 +21,8 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Protofilio] <a name="about-project"></a>
-**[Protofilio]** everything you want to know about me!
+# 📖 [AI 2023 Conference] <a name="about-project"></a>
+**[AI 2023 Conference]** everything you want to know about me!
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -35,15 +33,14 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-you can see my profile through this link:
-https://mohisa302.github.io/mohisa302.github.ico/
+Know one of the 2023 AI Conference through this link:
+[Project link](https://mohisa302.github.io/First-capstone-project/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
-you can know me from here...
-
+You can know one of the 2023 AI Conference through!
 
 
 ## 👥 Authors <a name="authors"></a>
