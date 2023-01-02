@@ -17,6 +17,7 @@ body {
 .main-header {
   display: flex;
   width: 100%;
+  background-color: whitesmoke;
   flex-direction: column;
 }
 
@@ -35,12 +36,36 @@ body {
   cursor: pointer;
 }
 
-.background {
-  background-image: url('./img/mobile_bg.png');
+.home {
+  background-image: url("./img/mobile_bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 80vh;
   width: 100%;
+  height: 70vh;
+  z-index: 1;
+  margin-top: 0;
+  padding: 5%;
+}
+
+.about {
+  width: 100%;
+  background-image: url("./img/mobile_bg2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 80vh;
+  z-index: 1;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact {
+  font-size: 12px;
+  font-weight: lighter;
+  line-height: 3vh;
 }
 
 ul {
@@ -57,18 +82,73 @@ ul {
   -webkit-text-fill-color: transparent;
 }
 
+.about-title {
+  font-size: 35px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #e35542;
+}
+
 .date {
   color: rgb(91, 94, 102);
   font-weight: 800;
 }
 
+.about-img {
+  width: 85%;
+}
+
+.partner {
+  background-color: #000000bd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  padding-bottom: 5%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  column-gap: 5%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-img {
+  width: 30vw;
+  height: 5vw;
+}
+
+.company-icon {
+  width: 20vh;
+  height: 6vh;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.global-summit {
+  display: flex;
+  row-gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+}
+
 .sub-title {
   font-size: 20px;
   font-weight: lighter;
-}
-
-.page1 {
-  margin: 5%;
+  margin: 0;
+  padding-top: 3%;
 }
 
 .main-program {
@@ -85,20 +165,20 @@ ul {
 }
 
 .line2 {
-    margin: 0;
-    width: 45px;
-    border-top: 1px solid #beb8b7;
+  margin: 0;
+  width: 45px;
+  border-top: 1px solid #beb8b7;
 }
 
 .speaker-des {
-    grid-column-start: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
+  grid-column-start: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 
-.speaker-des >h3 {
-    margin: 0;
+.speaker-des > h3 {
+  margin: 0;
 }
 
 .speaker-container {
@@ -121,8 +201,34 @@ a:active {
   color: red;
 }
 
-.speaker-text2 {
+.menu-click {
+  width: 100%;
+  height: 50vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: black;
+  z-index: 10;
+  display: none;
+}
 
+.open {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.close-icon,
+.cross-icon {
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+}
+
+.close-container {
+  margin-top: 30px;
+  margin-right: 38px;
+  align-self: flex-end;
 }
 
 .program-title {
@@ -132,11 +238,11 @@ a:active {
 }
 
 .program-text1 {
-    color: red;
-    flex: 1;
+  color: red;
+  flex: 1;
 }
 
-.program{
+.program {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,11 +251,11 @@ a:active {
 }
 
 .join-btn {
-    margin-top: 9%;
-    background-color: #ef513c;
-    color: white;
-    padding: 7% 15%;
-    font-size: 20px;
+  margin-top: 9%;
+  background-color: #ef513c;
+  color: white;
+  padding: 7% 15%;
+  font-size: 20px;
 }
 
 .program-tab {
@@ -163,12 +269,12 @@ a:active {
 .speaker {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 }
 
 .speaker-img {
-  width: 26vw;
-  height: 20vw;
+  width: 31vw;
+  height: 34vw;
 }
 
 .speaker-tab {
@@ -190,7 +296,9 @@ a:active {
 .paragraph1 {
   background-color: whitesmoke;
   border: solid 5px white;
-  padding: 5%;
+  padding: 3vh;
+  width: 70vw;
+  font-weight: 600;
 }
 
 .sub-title {
@@ -198,12 +306,12 @@ a:active {
 }
 
 .more-btn {
-    padding: 5% 40%;
-    border: #beb8b7 2px solid;
-    display: flex;
-    column-gap: 10%;
-    margin: 10%;
-    cursor: pointer;
+  padding: 5% 40%;
+  border: #beb8b7 2px solid;
+  display: flex;
+  column-gap: 10%;
+  margin: 10%;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
