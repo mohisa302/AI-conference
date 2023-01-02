@@ -11,7 +11,6 @@ bars.addEventListener("click", () => {
 
 bars.addEventListener("click", () => {
   menu.classList.add("open");
-  console.log(aboutPage);
 });
 
 closeBtn.addEventListener("click", () => {
