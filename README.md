@@ -58,9 +58,8 @@ Know one of the 2023 AI Conference through this link:
 Clone this repository to your desired folder:
 =======
 You can know one of the 2023 AI Conference through!
->>>>>>> c629bbcfbefd38c5fe604dc7a3cc1e7c8d744fc9
+>>>>>>> 
 
-git clone https://github.com/bernabasy/Capstone-project-one.git
 
 **Run**
 To run project, run the following command:
