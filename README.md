@@ -1,5 +1,5 @@
-
 <a name="readme-top"></a>
+
 <div align="center">
 
   <img src="https://github.com/mohisa302/ReadMe/blob/master/murple_logo.png" alt="logo" width="140"  height="auto" />
@@ -23,28 +23,37 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Protofilio] <a name="about-project"></a>
-**[Protofilio]** everything you want to know about me!
+# 📖 [Fist-capstone-Project] <a name="about-project"></a>
 
+**[Protofilio]** introduction to the programming school
 
 ## 🛠 Built With <a name="built-with"></a>
+
 ### Key Features <a name="key-features"></a>
+
 - **using linters**
 - **both mobile and desktop version**
 - **online avaible**
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-you can see my profile through this link:
+
+you can see programming course through this link:
 https://mohisa302.github.io/mohisa302.github.ico/
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## 💻 Getting Started <a name="getting-started"></a>
-you can know me from here...
 
+**Clone**
+Clone this repository to your desired folder:
 
+git clone https://github.com/bernabasy/Capstone-project-one.git
+
+**Run**
+To run project, run the following command:
+
+Open in desired editor.
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -64,7 +73,6 @@ you can know me from here...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -81,7 +89,8 @@ If you like this project give me star!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my favorite mentor Houda Mzari
+I would like to thank cindy shin the author of template design.
+Behance:(https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
