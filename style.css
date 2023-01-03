@@ -76,6 +76,8 @@ body {
 
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .main-title {
@@ -124,11 +126,6 @@ ul {
   padding-bottom: 5%;
 }
 
-ul {
-  padding: 0;
-  margin: 0;
-}
-
 .footer {
   display: flex;
   column-gap: 5%;
@@ -166,6 +163,7 @@ ul {
   font-weight: lighter;
   margin: 0;
   padding-top: 3%;
+  color: orangered;
 }
 
 .main-program {
@@ -334,10 +332,6 @@ a:active {
   background-color: white;
 }
 
-.sub-title {
-  color: orangered;
-}
-
 .btn {
   padding: 3vw 35vw;
   font-size: 20px;
@@ -428,7 +422,7 @@ a:active {
     width: 80%;
     flex-direction: row;
     column-gap: 1%;
-    flex: 1 1 0px;
+    flex: 1 1 0;
     align-items: flex-start;
   }
 

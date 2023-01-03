@@ -1,88 +1,71 @@
-const speakersContainer = document.querySelector(".speakersContainer");
-const moreBtn = document.querySelector(".more");
-const joinBtn = document.querySelector(".join-btn");
-const lessBtn = document.querySelector(".less");
+const speakersContainer = document.querySelector('.speakersContainer');
+const moreBtn = document.querySelector('.more');
+const lessBtn = document.querySelector('.less');
 
 const speakers = [
   {
     id: 0,
-    name: "Yochai Benkler",
+    name: 'Yochai Benkler',
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maximenatus esse saepe",
-    speakerImage: "./img/speaker_01.png",
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maximenatus esse saepe',
+    speakerImage: './img/speaker_01.png',
     publish:
-      "Lorem s ex corporis ratione voluptatem enim vel voluptas maximefacere incidun",
+      'Lorem s ex corporis ratione voluptatem enim vel voluptas maximefacere incidun',
   },
   {
     id: 1,
-    name: "Kilman Chon",
+    name: 'Kilman Chon',
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maximenatus esse saepe",
-    speakerImage: "./img/speaker_02.png",
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maximenatus esse saepe',
+    speakerImage: './img/speaker_02.png',
     publish:
-      "Lorem s ex corporis ratione voluptatem enim vel voluptas maximefacere incidun",
+      'Lorem s ex corporis ratione voluptatem enim vel voluptas maximefacere incidun',
   },
   {
     id: 3,
-    name: "SohYeong Noh",
+    name: 'SohYeong Noh',
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maximenatus esse saepe",
-    speakerImage: "./img/speaker_03.png",
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maximenatus esse saepe',
+    speakerImage: './img/speaker_03.png',
     publish:
-      "Lorem s ex corporis ratione voluptatem enim vel voluptas maximefacere incidun",
+      'Lorem s ex corporis ratione voluptatem enim vel voluptas maximefacere incidun',
   },
   {
     id: 4,
-    name: "Julia Leda",
+    name: 'Julia Leda',
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maximenatus esse saepe",
-    speakerImage: "./img/speaker_04.png",
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maximenatus esse saepe',
+    speakerImage: './img/speaker_04.png',
     publish:
-      "Lorem s ex corporis ratione voluptatem enim vel voluptas maximefacere incidun",
+      'Lorem s ex corporis ratione voluptatem enim vel voluptas maximefacere incidun',
   },
   {
     id: 5,
-    name: "Lila Tretikov",
+    name: 'Lila Tretikov',
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maximenatus esse saepe",
-    speakerImage: "./img/speaker_05.png",
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maximenatus esse saepe',
+    speakerImage: './img/speaker_05.png',
     publish:
-      "Lorem s ex corporis ratione voluptatem enim vel voluptas maximefacere incidun",
+      'Lorem s ex corporis ratione voluptatem enim vel voluptas maximefacere incidun',
   },
   {
     id: 6,
-    name: "Ryan Markely",
+    name: 'Ryan Markely',
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maximenatus esse saepe",
-    speakerImage: "./img/speaker_06.png",
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maximenatus esse saepe',
+    speakerImage: './img/speaker_06.png',
     publish:
-      "Lorem s ex corporis ratione voluptatem enim vel voluptas maximefacere incidun",
+      'Lorem s ex corporis ratione voluptatem enim vel voluptas maximefacere incidun',
   },
 ];
 
-speakerCreator();
-
-moreBtn.addEventListener("click", () => {
-  moreBtn.classList.add("close");
-  lessBtn.classList.add("open-btn");
-  speakersContainer.innerHTML = "";
-  speakerCreator();
-});
-
-lessBtn.addEventListener("click", () => {
-  moreBtn.classList.remove("close");
-  lessBtn.classList.remove("open-btn");
-  speakersContainer.innerHTML = "";
-  speakerCreator();
-});
-
-joinBtn.addEventListener("click", () => {});
-
 function speakerCreator() {
   speakers.forEach((speaker, index) => {
-    const { name, description, speakerImage, publish } = speaker;
+    const {
+      name, description, speakerImage, publish,
+    } = speaker;
 
-    if (moreBtn.classList.contains("close") || index < 2) {
+    if (moreBtn.classList.contains('close') || index < 2) {
       speakersContainer.innerHTML += `
       
       <div class="speaker-container">
@@ -101,3 +84,19 @@ function speakerCreator() {
     }
   });
 }
+
+speakerCreator();
+
+moreBtn.addEventListener('click', () => {
+  moreBtn.classList.add('close');
+  lessBtn.classList.add('open-btn');
+  speakersContainer.innerHTML = '';
+  speakerCreator();
+});
+
+lessBtn.addEventListener('click', () => {
+  moreBtn.classList.remove('close');
+  lessBtn.classList.remove('open-btn');
+  speakersContainer.innerHTML = '';
+  speakerCreator();
+});
