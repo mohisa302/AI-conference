@@ -36,8 +36,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-you can see programming course through this link:
-https://mohisa302.github.io/mohisa302.github.ico/
+[you can see programming course through this link](https://mohisa302.github.io/First-capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
