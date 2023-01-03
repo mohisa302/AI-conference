@@ -21,14 +21,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<<<<<<< HEAD
 # 📖 [Fist-capstone-Project] <a name="about-project"></a>
-=======
-# 📖 [AI 2023 Conference] <a name="about-project"></a>
-**[AI 2023 Conference]** everything you want to know about me!
->>>>>>> c629bbcfbefd38c5fe604dc7a3cc1e7c8d744fc9
 
-**[Protofilio]** introduction to the programming school
+**[Fist-capstone-Project]** introduction to the programming school
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -40,27 +35,16 @@
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-<<<<<<< HEAD
 
-you can see programming course through this link:
-https://mohisa302.github.io/mohisa302.github.ico/
+[you can see programming course through this link](https://mohisa302.github.io/First-capstone-project/)
 
-=======
-Know one of the 2023 AI Conference through this link:
-[Project link](https://mohisa302.github.io/First-capstone-project/)
->>>>>>> c629bbcfbefd38c5fe604dc7a3cc1e7c8d744fc9
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
-<<<<<<< HEAD
 
 **Clone**
 Clone this repository to your desired folder:
-=======
-You can know one of the 2023 AI Conference through!
->>>>>>> c629bbcfbefd38c5fe604dc7a3cc1e7c8d744fc9
-
-git clone https://github.com/bernabasy/Capstone-project-one.git
+https://github.com/mohisa302/First-capstone-project.git
 
 **Run**
 To run project, run the following command:
@@ -102,7 +86,7 @@ If you like this project give me star!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank cindy shin the author of template design.
-Behance:(https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+[Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
