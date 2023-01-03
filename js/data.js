@@ -64,21 +64,19 @@ speakerCreator();
 
 moreBtn.addEventListener("click", () => {
   moreBtn.classList.add("close");
-  lessBtn.classList.add("open-page2");
+  lessBtn.classList.add("open-btn");
   speakersContainer.innerHTML = "";
   speakerCreator();
 });
 
 lessBtn.addEventListener("click", () => {
   moreBtn.classList.remove("close");
-  lessBtn.classList.remove("open-page2");
+  lessBtn.classList.remove("open-btn");
   speakersContainer.innerHTML = "";
   speakerCreator();
 });
 
-joinBtn.addEventListener("click", () => {
-  console.log("click");
-});
+joinBtn.addEventListener("click", () => {});
 
 function speakerCreator() {
   speakers.forEach((speaker, index) => {
