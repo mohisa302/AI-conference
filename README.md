@@ -21,7 +21,6 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<<<<<<< HEAD
 # 📖 [Fist-capstone-Project] <a name="about-project"></a>
 
 **[Fist-capstone-Project]** introduction to the programming school
