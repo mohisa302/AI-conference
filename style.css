@@ -199,11 +199,9 @@ ul {
 }
 
 .speaker-container {
-  margin-top: 10%;
   margin-left: 5%;
   display: flex;
   column-gap: 5%;
-  row-gap: 5%;
   width: 100%;
 }
 
@@ -320,6 +318,7 @@ a:active {
   width: 65vw;
   font-weight: 600;
   height: 100%;
+  line-height: 5vh;
 }
 
 .color {
@@ -438,6 +437,7 @@ a:active {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    row-gap: 5vw;
     padding-bottom: 5%;
   }
 
