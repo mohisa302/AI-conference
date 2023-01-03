@@ -216,9 +216,19 @@ a:active {
   color: red;
 }
 
+.menu-line {
+  width: 80%;
+  margin-bottom: 10%;
+  margin-left: 4%;
+}
+
+.nav-link {
+  margin-left: 5%;
+}
+
 .menu-click {
   width: 100%;
-  height: 50vh;
+  height: 100vh;
   position: absolute;
   left: 0;
   top: 0;
@@ -230,7 +240,6 @@ a:active {
 .open {
   display: flex;
   flex-direction: column;
-  row-gap: 16px;
 }
 
 .close-icon,
