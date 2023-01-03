@@ -23,12 +23,8 @@
 
 <<<<<<< HEAD
 # 📖 [Fist-capstone-Project] <a name="about-project"></a>
-=======
-# 📖 [AI 2023 Conference] <a name="about-project"></a>
-**[AI 2023 Conference]** everything you want to know about me!
->>>>>>> c629bbcfbefd38c5fe604dc7a3cc1e7c8d744fc9
 
-**[Protofilio]** introduction to the programming school
+**[Fist-capstone-Project]** introduction to the programming school
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -101,7 +97,7 @@ If you like this project give me star!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank cindy shin the author of template design.
-Behance:(https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+[Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
