@@ -220,6 +220,7 @@ a:active {
 
 .nav-link {
   margin-left: 5%;
+  color: white;
 }
 
 .menu-click {
@@ -341,10 +342,6 @@ a:active {
   border: #beb8b7 2px solid;
   margin-bottom: 5%;
   background-color: white;
-}
-
-.nav-link {
-  color: white;
 }
 
 .less {
