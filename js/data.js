@@ -96,6 +96,7 @@ const speakerApear = document.querySelectorAll(".device-state");
 moreBtn.addEventListener("click", () => {
   moreBtn.classList.add("close");
   lessBtn.classList.add("open-btn");
+
   speakerApear.forEach((speaker) => {
     speaker.classList.add("open");
   });
@@ -104,6 +105,7 @@ moreBtn.addEventListener("click", () => {
 lessBtn.addEventListener("click", () => {
   moreBtn.classList.remove("close");
   lessBtn.classList.remove("open-btn");
+
   speakerApear.forEach((speaker) => {
     speaker.classList.remove("open");
   });

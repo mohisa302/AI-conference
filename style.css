@@ -175,7 +175,6 @@ ul {
 .line1 {
   width: 53px;
   border-top: 1px solid #ef513c;
-  margin-bottom: 5%;
 }
 
 .line2 {
@@ -314,6 +313,11 @@ a:active {
 
 .address {
   color: rgb(91, 94, 102);
+  margin-bottom: 5%;
+}
+
+.about-img {
+  size: 90% 100%;
 }
 
 .paragraph1 {
@@ -362,6 +366,20 @@ a:active {
 
 .program-link {
   display: none;
+}
+
+.line3 {
+  margin-top: 10%;
+  width: 100%;
+  border-top: 1px solid #d4cccb;
+}
+
+.about-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5%;
+  text-align: center;
 }
 
 .desk-ver {
