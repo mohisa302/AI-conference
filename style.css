@@ -103,7 +103,7 @@ ul {
 }
 
 .about-img {
-  width: 85%;
+  width: 80%;
 }
 
 .page2 {
@@ -285,6 +285,10 @@ a:active {
   display: none;
 }
 
+.mobile-ver {
+  display: flex;
+}
+
 .speakers {
   display: flex;
   flex-direction: column;
@@ -314,10 +318,6 @@ a:active {
 .address {
   color: rgb(91, 94, 102);
   margin-bottom: 5%;
-}
-
-.about-img {
-  size: 90% 100%;
 }
 
 .paragraph1 {
@@ -504,5 +504,15 @@ a:active {
 
   .partner {
     background-color: #000000bd;
+  }
+
+  .mobile-ver {
+    display: none;
+  }
+
+  .about-footer {
+    background-color: black;
+    color: white;
+    justify-content: center;
   }
 }
