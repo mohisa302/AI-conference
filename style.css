@@ -234,11 +234,6 @@ a:active {
   display: none;
 }
 
-.open {
-  display: flex;
-  flex-direction: column;
-}
-
 .close-icon,
 .cross-icon {
   height: 18px;
@@ -285,6 +280,10 @@ a:active {
   align-items: center;
   padding: 5%;
   column-gap: 5%;
+}
+
+.device-state {
+  display: none;
 }
 
 .speakers {
@@ -363,6 +362,14 @@ a:active {
 
 .program-link {
   display: none;
+}
+
+.desk-ver {
+  display: none;
+}
+
+.open {
+  display: flex;
 }
 
 @media screen and (min-width: 768px) {
@@ -458,5 +465,26 @@ a:active {
 
   .sub-title {
     font-size: 30px;
+  }
+
+  .more {
+    display: none;
+  }
+
+  .device-state {
+    display: flex;
+  }
+
+  .desk-ver {
+    display: flex;
+    background-color: rgb(224, 223, 222);
+  }
+
+  .partners {
+    column-gap: 20px;
+  }
+
+  .partner {
+    background-color: #000000bd;
   }
 }
