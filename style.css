@@ -454,6 +454,14 @@ a:active {
     display: none;
   }
 
+  .global-img {
+    display: flex;
+    column-gap: 5%;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+  }
+
   .program-link {
     display: block;
     color: white;
