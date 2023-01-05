@@ -401,18 +401,28 @@ a:active {
     background-color: white;
   }
 
+  li > a:hover,
+  a:link,
+  a:visited {
+    color: black;
+  }
+
+  .header-text1 > a:visited {
+    color: red;
+  }
+
   .logo {
     width: 20vw;
+    margin-left: -10%;
     margin-top: -3%;
   }
 
   .Des-header1 {
     display: flex;
-    column-gap: 2%;
+    column-gap: 1%;
     background-color: rgb(48, 44, 44);
     justify-content: flex-end;
     align-items: center;
-    padding-right: 10%;
   }
 
   .header1-text {
@@ -420,16 +430,18 @@ a:active {
   }
 
   .Des-header2 {
+    column-gap: 5%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-bottom: 1%;
     margin-top: -2%;
+    align-content: center;
   }
 
   .logo2 {
-    border: #ef513c 2px solid;
+    border: #ef513c 4px solid;
     color: red;
-    padding: 1%;
+    padding: 0 1% 0 1%;
     margin-top: -2%;
     display: flex;
     align-items: center;
