@@ -401,8 +401,8 @@ a:active {
     background-color: white;
   }
 
-  li > a:hover,
   a:link,
+  a:hover,
   a:visited {
     color: black;
   }
