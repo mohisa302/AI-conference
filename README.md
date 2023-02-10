@@ -36,7 +36,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--[you can see programming course through this link](https://mohisa302.github.io/First-capstone-project/)
+-[you can see programming course through this link](https://mohisa302.github.io/AI-conference/)
 
 -[Link to the loom video](https://www.loom.com/share/b4b3fc6d6ae440179f0015168d8a25dd)
 
